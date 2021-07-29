@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+}
+body {
+  box-sizing: border-box;
+  background: white;
+  /* color: white; */
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+section .nv {
+  width: 100%;
+  height: 95vh;
+}
+.img1 {
+  background-image: url("3.jpeg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-spacing: 5px;
+}
+.hero {
+  opacity: 0.8;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+nav {
+  /* margin-top: 95vh; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  /* width: 100%; */
+  background-color: white;
+  box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
+  padding: 0px 5%;
+}
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  margin: 30px;
+  font-family: "Courier New", Courier, monospace;
+  color: #505050;
+  font-size: 25px;
+  font-weight: 700;
+}
+.logo {
+  color: black;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+}
+.a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 50px;
+}
+.b {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 90px;
+  letter-spacing: 1px;
+}
+.c {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 60px;
+}
+/* .text-container {
+  position: absolute;
+  left: 15%;
+  top: 40%;
+  transform: translate(-13%, -42%);
+} */
+.img2 {
+  background-image: url(2.jpeg);
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+/* .sec1 {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 30px;
+  padding: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+} */
+.sec1 {
+  background: white;
+  color: black;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: impact;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+.img1,
+.img2,
+.img3,
+.img4 {
+  background-attachment: fixed;
+}
+.img2 {
+  height: 60vh;
+}
+.skills {
+  color: white;
+  background: black;
+  opacity: 0.5;
+  font-size: 60px;
+  padding: 20px 20px;
+
+  /* display: flex;
+ justify-content: space-between;
+  align-items: center; 
+ flex-direction: row;
+  flex-wrap: wrap; */
+}
+/* .skill-lists {
+  font-size: 4rem;
+  display: grid;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skill-lists i {
+  display: flex;
+  font-size: 6rem;
+  margin: 2rem;
+  justify-content: space-between;
+} */
+.img3 {
+  background-image: url(1.jpeg);
+  background-size: cover;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.pro-task-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.pro-img {
+  width: 50%;
+}
+.pro-img img {
+  width: 100%;
+}
+.info {
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+.info-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.link {
+  font-size: 3rem;
+}
+.about {
+  background: #f0d1d3;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer {
+  background: #000;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 5rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+#go-up {
+  position: fixed;
+  font-size: rem;
+  color: white;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+  box-shadow: -5px 5px 10px rgba(211, 209, 209, 0.3);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img4 {
+  background-image: url(4.jpeg);
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+
+}
