@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="niraj1.css">
 </head>
 <body>
-    <section class="nv">
+    <section class="nv" id="main">
         <nav>
         <a href="#" class="logo">NIRAJ</a>        
         <ul>
@@ -149,7 +149,21 @@
      </div>
      <footer class="footer">Copy @copy: All right reserves</footer>
     
-     <span id="go-up"><i class="fas fa-arrow-up"></i></span>
+     <a href="#main" >
+         <span id="go-up"><i class="fas fa-arrow-up"></i></span>
+     </a>
+<script>
+    const btngroup = document.getElementById("go-up");
+    btngroup.style.visibility = "hidden";
     
+    window.onscroll = function(){
+        // console.log(window.pageYOffset);
+        if(window.pageYOffset <= 550){
+            btngroup.style.visibility = "hidden";
+        }else{
+            btngroup.style.visibility = "visible";
+        }
+    }
+</script>
 </body>
 </html>
